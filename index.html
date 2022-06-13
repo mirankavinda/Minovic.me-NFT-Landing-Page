@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minovic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="Style/Style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Minovic</a>
+        <ul>
+            <li><a href="#story" class="active">Story</a></li>
+            <li><a href="#about_Us">About Us</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#">Whitepaper</a></li>
+        </ul>
+
+    </header>
+
+    <section>
+        <img src="img/Background/1024x768/Stars.png" id="Stars" alt="">
+        <img src="img/Background/1024x768/Moon.png" id="Moon" alt="">
+
+
+        <a href="https://discord.com/invite/64XBDu59G4" id="btn">Join With Community!</a>
+
+        <img src="img/Background/1024x768/Mountain.png" id="Mountain" alt="">
+        <img src="img/Background/1024x768/Temple2.png" id="Temple2" alt="">
+        <img src="img/Background/1024x768/temple.png" id="Temple" alt="">
+        <img src="img/Background/1024x768/Ground.png" id="Ground" alt="">
+    </section>
+    <div class="icon">
+        <a href="#"><i class="bi bi-discord" id="icon1"></i></a>
+        <a href="#"><i class="bi bi-twitter" id="icon2"></i></a>
+        <a href="#"><i id="icon3"><img src="img/Logomark-Transparent White.png" alt=""></i></a>
+    </div>
+    <div class="story" id="story">
+        <h2>Story Begin With Sadness</h2><br>
+        <p>The Minovic which we are goiing to relesed in the future.Asrcle from the 
+            story behind the game.<br>
+            One day when he wakes up in the morning his family memeber and villagers were
+            teribly killed. Suddnely he was unable to think about this incident.He crying a lot .
+            But suddenley he just seen all the people diying without their one eye.at that time he 
+            heard a terrible noice and he run away to search to find alive person. However Minovic 
+            could not belive his eyes from what he saw...
+            <br><br>
+            You Have ability to play the ADVENTURES OF MINOVIC'S game that starts with this curiosity
+            ebenies he encounters in Minovic's future life in this NFT Collection,Cloths,Wepons and
+            powers from friends & Sensei's to those who bought this NFT's There is a possibility to link 
+            with the game.
+        </p>
+
+    </div>
+    <div class="about_Us" id="about_Us">
+        <h2>About Us</h2><br>
+        <p>
+            We are a small team that loves to see new things in the world of techonology.<br>
+            So we have NFT Collection reflected in our upcomming Action Game,and gonnaprovide a
+            distinct game without any profits as follows.
+        </p>
+        <br>
+    </div>
+    <div class="roadmap" id="roadmap">
+        <h2>
+            <h2>Roadmap</h2>
+            <p>The prominest target is to collect funds to our Game which is going to publish<br>
+            As well as web want to give every one to exprience on mataverse and free to play game.
+            </p>
+            <br><br>
+        </h2>
+    </div>
+
+    <footer id="footer">
+        
+        <h3>When you doing something no one done before you don't need to 
+            Luck or money.<br>you just need the coniction that this will done.
+        </h3>
+        <br>
+        <!-- <div class="icon">
+            <a href="#"><i class="bi bi-discord"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><img src="img/Logomark-Transparent White.png" alt=""></a>
+        </div> -->
+        <hr>
+        <br>
+        <p>© 2022 Minovic NFT, All rights reserved.</p>
+    </footer>
+
+    <script>
+        let Stars = document.getElementById('Stars');
+        let Moon = document.getElementById('Moon');
+        let Mountain = document.getElementById('Mountain');
+        let Temple2 = document.getElementById('Temple2');
+        let temple = document.getElementById('temple');
+        let btn = document.getElementById('btn');
+        let Ground = document.getElementById('Ground');
+        let header = document.querySelector('header');
+        //let icon1 = document.getElementById('icon1');
+        //let icon2 = document.getElementById('icon2');
+        //let icon3 = document.getElementById('icon3');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+            Stars.style.left = value * 0.15 + 'px';
+            Moon.style.top = value * 1.0 + 'px';
+            Mountain.style.top = value * 0.4 + 'px';
+            Temple2.style.top = value * 0.3 + 'px';
+            Temple.style.top = value * 0.2 + 'px';
+            //icon1.style.marginTop = value * 0.5 + 'px';
+            //icon2.style.marginTop = value * 0.5 + 'px';
+            //icon3.style.marginTop = value * 0.5 + 'px';
+            btn.style.marginTop = value * 0.5 + 'px';
+            Ground.style.top = value * 0.1 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+</body>
+
+</html>
